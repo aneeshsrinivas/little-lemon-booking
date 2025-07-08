@@ -1,0 +1,47 @@
+.test-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.test-card {
+  background: var(--light-background);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+
+.test-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .15);
+}
+
+.test-card header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.test-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--primary-yellow);
+}
+
+.test-card h4 {
+  margin: 0;
+  color: var(--primary-green);
+}
+
+.stars {
+  color: var(--primary-yellow);
+}
+
+.test-card p {
+  font-style: italic;
+  color: var(--text-color);
+}
