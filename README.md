@@ -18,8 +18,6 @@ Inspired by Mediterranean vibes and caffeine-fueled code sessions.
 
 ## Wireframe
 
-View the interactive prototype in Figma:  
-https://www.figma.com/file/XYZ.../little-lemon-booking
 
 ### Screenshots
 
