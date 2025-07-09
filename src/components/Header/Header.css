@@ -3,16 +3,18 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
   background: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
-  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  z-index: 1000;
+  padding: 0.75rem 0;
 }
 
 .header-content {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -30,6 +32,38 @@
 
 .logo h1 {
   font-size: 1.8rem;
-  font-weight: bold;
   color: var(--primary-green);
+  margin: 0;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color .3s;
+}
+
+.nav-menu a:hover {
+  color: var(--primary-green);
+}
+
+.book-header-btn {
+  margin-left: 24px;
+}
+
+@media (max-width: 768px) {
+  .nav-menu ul {
+    display: none; /* or transform into mobile menu */
+  }
+  .book-header-btn {
+    margin-left: auto;
+  }
 }

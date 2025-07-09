@@ -1,0 +1,17 @@
+/* src/index.css */
+
+/* Global reset and body styles */
+@import url('https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia','Times New Roman',serif;
+  background: var(--light-background);
+  color: var(--text-color);
+}
+
+/* Custom scrollbar (optional) */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: var(--primary-green); border-radius: 4px; }
