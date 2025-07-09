@@ -15,3 +15,20 @@ Inspired by Mediterranean vibes and caffeine-fueled code sessions.
 ### 🔗 Live App
 [Click to Reserve Your Table](https://aneeshsrinivas.github.io/little-lemon-booking/)
 
+
+## Wireframe
+
+View the interactive prototype in Figma:  
+https://www.figma.com/file/XYZ.../little-lemon-booking
+
+### Screenshots
+
+![Home Page Wireframe](./wire-frames/home-page_wireframe.jpg)
+
+![Booking Page Wireframe](./wire-frames/booking-page_wireframe.jpg)
+
+![Select Date Wireframe](./wire-frames/select-date_wireframe.jpg)
+
+![Select Time Wireframe](./wire-frames/select-time_wireframe.jpg)
+
+![Sign-Up Wireframe](./wire-frames/sign-up_wireframe.jpg)
