@@ -1,64 +1,16 @@
-# 🍋 Little Lemon Restaurant SPA
+## 🍋 Little Lemon Table Booking App
+Crafted by Aneesh — not just a developer, but a deployer of elegance.
 
-A responsive single-page React application for a fictional Mediterranean restaurant named **Little Lemon**, based in Chicago. Built for performance, accessibility, and visual flair.
+Inspired by Mediterranean vibes and caffeine-fueled code sessions.
 
-## ✨ Features
+---
 
-- Sticky header with smooth-scroll navigation
-- Hero section with a prominent **Book a Table** CTA
-- Weekly specials with food images, pricing, and descriptions
-- About section sharing the restaurant’s story
-- Reservation form with validation and date/time selectors
-- Customer testimonials and animated reviews
-- Responsive layout for mobile, tablet, and desktop
-- Semantic HTML and ARIA accessibility support
+### 👨‍💻 Stack That Slaps
+- ⚛️ React 18+
+- 🎨 CSS Modules (No Tailwind. No Bootstrap. Just vibes.)
+- 💥 GitHub Pages Deployment
 
-## 🛠️ Tech Stack
+---
 
-- [React 18+](https://reactjs.org/)
-- CSS Modules & Global CSS (no Tailwind or Bootstrap)
-- [Create React App](https://create-react-app.dev/)
-- Hosted images via Unsplash & Pixabay
-
-### 🎨 Custom Color Scheme
-
-```css
---primary-green: #495e57;
---primary-yellow: #f4ce14;
---light-background: #edefee;
---text-color: #333;
-
-
-🚧 Setup Instructions
-📦 Install dependencies:
-npm install 
-
-🚀 Start the development server:
-npm start           
-```
-🏗️ Build production bundle:
-npm run build
-
-🚀 Deployment Options
-GitHub Pages
-Add homepage to package.json:
-"homepage": "https://<your-github-username>.github.io/<repository-name>"
-
-Add deployment scripts:
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
-Install GitHub Pages dependency:
-npm install gh-pages --save-dev
-
-Deploy 🚀:
-npm run deploy
-Enable GitHub Pages in your repo settings using the gh-pages branch as the source.
-
-📄 License
-This project is for educational and demonstration purposes only. Images used are royalty-free via Unsplash and Pixabay.
-
-🥂 Acknowledgements
-Inspired by traditional Mediterranean hospitality and modern frontend practices. Crafted with 🍋 & ❤️ by Aneesh Srinivas.
+### 🔗 Live App
+[Click to Reserve Your Table](https://aneeshsrinivas.github.io/little-lemon-booking/)
